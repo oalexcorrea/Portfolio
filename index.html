@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Correa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/images/internet-icon.svg">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <p>AC</p>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutMe">Sobre mim</a></li>
+          <li><a href="#habilities">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="content">
+
+        <h1>Alex Correa</h1>
+        <h3>Desenvolvedor Web</h3>
+        <button onclick="openLinkInNewTab()">
+          <script>
+            let openLinkInNewTab = () => {
+              window.open("https://github.com/oalexcorrea")
+            }
+          </script>
+          <img src="images/github-icon.svg" alt="">
+        </button>
+        
+      </div>
+
+      <img class="internet-icon" src="./images/internet-icon.svg" alt="">
+
+    </section>
+
+    <section id="aboutMe">
+      <h1>Sobre mim</h1>
+
+      <p>
+        Olá! Meu nome é Alex Correa, e sou aficionado por tecnologia, especialmente pelo desenvolvimento front-end.
+        Desde que descobri esse mundo, tenho me dedicado a aprender HTML, CSS e JavaScript para criar interfaces web.
+        Atualmente estou estudando Engenharia da Computação, e estou entusiasmado para aplicar o que aprendi em projetos práticos.
+        Estou sempre buscando aprender mais sobre design responsivo e técnicas de otimização para sites.
+      </p>
+
+      <p style="margin-bottom: 13.6rem;">
+        Além do desenvolvimento front-end, tenho interesse em aprender mais sobre UX/UI design para criar experiências digitais que sejam tanto funcionais quanto agradáveis esteticamente.
+        Estou aberto a novas oportunidades para colaborar em projetos e crescer profissionalmente nesta área que tanto me encanta.
+        Adoraria fazer parte de uma equipe que compartilhe minha paixão por criar soluções web inovadoras e de alta qualidade.
+      </p>
+
+    </section>
+
+    <section id="habilities">
+      <h1>Habilidades</h1>
+
+      <div class="icons">
+        <div class="html-icon">
+          <img src="images/html-icon.svg" alt="">
+          <p>HTML5</p>
+        </div>
+
+        <div class="css-icon">
+          <img src="images/css-icon.svg" alt="">
+          <p>CSS3</p>
+        </div>
+
+        <div class="js-icon">
+          <img src="images/js-icon.svg" alt="">
+          <p>JavaScript</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>Projetos</h1>
+
+        <section id="gallery">
+          <section class="gallery">
+            <figure class="item">
+              <a href="https://github.com" target="_blank">
+                <img src="images/portfolio-image.png" alt="" />
+              </a>
+
+              <figcaption class="details">
+                <h2>Portfólio</h2>
+                <div class="tags">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="images/soon-img.png" alt="" />
+              <figcaption class="details">
+                <h2>Em breve</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="images/soon-img.png" alt="" />
+              <figcaption class="details">
+                <h2>Em breve</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+        </section>
+    </section>
+
+  </div>
+</body>
+</html>
