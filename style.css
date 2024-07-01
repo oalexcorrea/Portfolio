@@ -25,7 +25,7 @@ html {
   border-radius: 8px;
 }
 
-
+/* Header */
 header {
   height: 60px;
   background-color: rgb(204, 204, 204);
@@ -47,21 +47,6 @@ header p {
   font-size: 2.4rem;
   font-weight: 700;
 }
-/*
-nav ul {
-  display: flex;
-  gap: 28px;
-}
-
-nav ul li {
-  font-size: 2.6rem;
-  text-transform: uppercase;
-}
-
-nav ul li a {
-  color: black;
-}
-*/
 
 nav {
   display: flex;
@@ -123,6 +108,8 @@ section {
   padding-left: 9.2rem;
 }
 
+/* Home */
+
 #home {
   height: 700px;
   display: flex;
@@ -183,6 +170,8 @@ section {
   transition: .3s;
 }
 
+/* Sobre mim */
+
 #aboutMe {
   height: 700px;
   display: flex;
@@ -205,7 +194,7 @@ section {
   font-size: 2.4rem;
 }
 
-
+/* Habilidades */
 
 #habilites {
   margin-top: 4.8rem;
@@ -224,6 +213,8 @@ section {
 
   margin-bottom: 4.8rem;
 }
+
+/* Ícones */
 
 .icons {
   display: flex;
@@ -244,8 +235,10 @@ section {
   font-weight: 600;
 }
 
+/* Projetos */
+
 #projects {
-  height: 50rem;
+  height: 60rem;
   padding-top: 4.8rem;
   background-color: rgb(231, 231, 231);
   padding-bottom: 4.8rem;
@@ -257,6 +250,8 @@ section {
   text-align: center;
   font-size: 6.4rem;
 }
+
+/* Galeria */
 
 .gallery {
   margin-top: 3.2rem;
